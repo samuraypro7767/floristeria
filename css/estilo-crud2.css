@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#background-inicio{
+    width: 100%;
+    height: 100vh;
+    background: url(../imagenes/iniciar.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+#background-register{
+    width: 100%;
+    height: 100vh;
+    background: url(../imagenes/fondo3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+#fondo1{
+    background-image: url('../imagenes/fondo1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+     width: 100%;
+     height: 100%;
+     background-position: center;
+     
+
+}
+#fondoprodu{
+    background-image: url(../imagenes/fondo2.jpg);
+    background-size: cover;
+
+}
+#conatiner-nosotros{
+    width: 100%;
+    height: auto;
+    display: grid;
+  background-image: url(../imagenes/fondo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+ .h1{
+    background-color:#ff6eece8;
+    color:bisque;
+    width: 55%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  table{
+    background-color: #ff6eece8;
+      text-align: center;
+      width:80%;
+      border-collapse: collapse;
+      margin:auto ;
+      border: 2px solid white;
+      border-radius: 10px;
+  }
+  
+  th, td {
+    padding:20px;
+    border-bottom: 2px solid white;
+    
+  }
+  
+  thead{
+      background-color: #e23963;
+      border-bottom:solid 5px #fefefe;
+      color: white;
+      
+  
+  }
+  
+  .dir-a:link, .dir-a:visited  {
+    background-color: #0a78ffc2;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  
+  .dir-a:hover, .dir-a:active {
+    background-color:cornflowerblue;
+    color:black;
+    border-radius: 5px;
+
+  }
+
+/* Estilo para el contenedor del buscador */
+.search-container {
+    text-align: center;
+    display: inline-flex;
+    
+    
+}
+
+/* Estilo para el campo de búsqueda */
+.search-input {
+    padding: 10px;
+    width: 400px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 17px;
+    outline: none; /* Elimina el borde al hacer clic en el campo */
+}
+
+/* Estilo para el botón de búsqueda */
+.button0 {
+    padding: 10px 20px;
+    background-color:cornflowerblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+/* Cambia el estilo del botón al pasar el cursor sobre él */
+.button0:hover {
+    background-color: #6faff5;
+}
+
+
+   #buscador{
+    display: flex;
+    justify-content: right;
+    margin: 2px auto;
+    width: 100%;
+  
+  }
+  
+
+  
+
+  #buscardor{
+    display: flex;
+    width: 90%;
+    margin: 30px 10px;
+  }
+  
+  
+
+  #navegador-bus{
+    width:100% ;
+    height: 20px;
+  }
+/* Estilo para el contenedor del formulario de registro */
+.registration-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Estilo para el formulario de registro */
+.registration-form {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: #6faff5;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para las etiquetas */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="number"], 
+input[type="date"], 
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Estilo para el botón de registro */
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Cambia el estilo del botón al pasar el cursor sobre él */
+.submit-button:hover {
+  background-color: #0056b3;
+}
